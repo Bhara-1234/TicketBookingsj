@@ -235,7 +235,6 @@
 			ss.open('GET', 'BookingServlet?' + tdata + data, true)
 			ss.onreadystatechange = function () {
 				if (ss.readyState === 4) {
-					console.log('hello');
 					var resp=ss.responseText;
 					console.log(resp);
 					document.body.innerHTML =resp;
