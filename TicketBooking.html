@@ -103,7 +103,7 @@
 		<label>To :<select id="to" name="tt">
 				<option>select</option>
 			</select></label>
-		<button onclick="hi()">search</button><br></br>
+		<button onclick="search()">search</button><br></br>
 		<label>Trains:<select id="trains">
 				<option>select</option>
 			</select></label><br></br>
@@ -166,7 +166,7 @@
 				to.appendChild(option);
 			})
 		}
-		function hi() {
+		function search() {
 			var f = document.getElementById("from").value;
 			var t = document.getElementById("to").value;
 			console.log(f, t);
